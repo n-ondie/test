@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FPCSwimmer
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 4db96fdf7b8d29b4aa01b9fa6c41e716,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: waterSoundCollection
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: timeBetweenSwimSound
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundVolume
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxPitchUnderwater
+    value: 0.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].value
+    value: 0.0028328612
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].inSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].outSlope
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].tangentMode
+    value: 136
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].time
+    value: 0.88912815
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].value
+    value: 0.16713655
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].inSlope
+    value: 0.2462356
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].outSlope
+    value: 0.2462356
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[1].outWeight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].value
+    value: 1.0028329
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].inSlope
+    value: 13.541102
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].outSlope
+    value: 13.541102
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].inWeight
+    value: 0.11111091
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swimSoundPitchCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: landAudioSourceObject
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: landSoundVolumeUnderwater
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: landSoundVolumeGround
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emersionSoundThreshold
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: LeftWaterSplash
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RightWaterSplash
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerEarsFromWaterLevelThreshold
+    value: -0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lockCursor
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: underwaterSpeed
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: walkingSpeed
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: runMultiplicator
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: elevateCamera
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraElevationWhenOnGround
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraElevationWhenOnWater
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraEmersionSpeed
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: cameraSubmersionSpeed
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playerWidth
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: raiseObject
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _forceHeightOffset
+    value: -0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _dragInWaterRight
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: _dragInWaterForward
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mouseSensitivity
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: clampAngle
+    value: 80
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: jumpIntensity
+    value: 20
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
